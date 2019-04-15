@@ -1,0 +1,53 @@
+
+
+
+body {
+      background:url("l.jpg");
+      background-size:cover;
+      background position:centre;
+      font-family:papyrus;
+      text-align:center;
+}
+
+.head{
+      color:yellow;
+      font-family:papyrus;
+      font-size:50px;
+}
+
+.signin2-box{
+       width:500px;
+       height:500px;
+       background:rgba(22,21,23,0.5);//transparency of box
+       color:gray;
+       top:50%;
+       left:80%;
+       position:absolute;
+       transform:translate(-50%,-50%);
+      // box-sizing:border-box;
+}
+
+.h1{
+    padding:0 0 20px;
+    text-align:center;
+    font-size:22px;
+}
+
+#a{ 
+    color:red;
+    font-size:50px;
+}
+
+.signin2-box input{
+       width:70%;
+       margin-bottom:30px;
+       text-allign:center;
+}
+
+.signin2-box input[type="text"],input[type="email"],input[type="password"],input[type="int"]
+{      //border-bottom:1px solid #yellow;
+       background:transparent;
+       height:50px;
+       font-size:16px;
+       color:white;
+}

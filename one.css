@@ -1,0 +1,59 @@
+
+
+body {
+      background:url(".jpg");
+      background-size:cover;
+      background position:centre;
+      font-family:papyrus;
+      text-align:center;
+}
+
+.head{
+      color:yellow;
+      font-family:papyrus;
+      font-size:50px;
+}
+
+.one-box{
+       width:2500px;
+       height:300px;
+       background:rgba(0,128,128,0.7);//transparency of box
+       color:gray;
+       top:0%;
+       left:10%;
+       position:absolute;
+       transform:translate(-50%,-50%);
+      // box-sizing:border-box;
+}
+
+.two-box{
+       width:2500px;
+       height:593px;
+       background:rgba(20,21,23,0);//transparency of box
+       color:gray;
+       top:57%;
+       left:33%;
+       position:absolute;
+       background-size:cover;
+       transform:translate(-50%,-50%);
+      // box-sizing:border-box;
+}
+
+.h{
+    padding:0 0 20px;
+    text-align:left;
+    font-size:60px;
+    color:black;
+}
+
+.sm{
+    text-align:left;
+    font-size:60px;
+}
+
+.r{
+   
+    text-align:right;
+    color:black;
+}
+

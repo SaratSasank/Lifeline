@@ -1,0 +1,28 @@
+
+
+
+body {
+      background:url("b1.png");
+      background-size:cover;
+      background position:centre;
+      font-family:papyrus;
+      text-align:center;
+}
+
+.head{
+      color:yellow;
+      
+      font-size:50px;
+}
+
+
+.h1{
+    padding:0 0 20px;
+    text-align:center;
+    font-size:22px;
+}
+
+#a{ 
+    color:red;
+    font-size:50px;
+}

@@ -1,0 +1,58 @@
+body {
+      background-color:#ce9e62;
+      background:url(".png");
+      background-size:cover;
+      background position:centre;
+      font-family:papyrus;
+      text-align:center;
+}
+
+.head{
+      color:yellow;
+      font-family:papyrus;
+      font-size:50px;
+}
+
+.box{
+       width:500px;
+       height:500px;
+       background:rgba(255,255,255,0.2);//transparency of box
+       background-color:#ce9e62;
+       color:gray;
+       top:60%;
+       right:40%;
+       position:absolute;
+       transform:translate(-50%,-50%);
+       boder:grey;
+      // box-sizing:border-box;
+}
+
+.h1{
+    padding:0 0 20px;
+    text-align:center;
+    font-size:22px;
+}
+
+#a{ 
+    color:red;
+    font-size:50px;
+}
+
+.signin-box input{
+       width:70%;
+       margin-bottom:30px;
+       text-allign:center;
+}
+
+
+.q{
+       width:1030px;
+       height:50px;
+       background:rgba(25,21,23,0.5);//transparency of box
+       color: white;
+       top:95%;
+       left:75%;
+       position:absolute;
+       transform:translate(-50%,-50%);
+}
+

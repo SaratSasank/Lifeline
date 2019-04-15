@@ -1,0 +1,28 @@
+
+
+
+
+body {
+      background:url("c1.jpg");
+      background-size:cover;
+      background position:centre;
+   
+}
+
+.head{
+      color:yellow;
+      font-family:papyrus;
+      font-size:50px;
+}
+
+.appoint-box{
+       width:500px;
+       height:500px;
+       background:rgba(22,21,23,0);//transparency of box
+       color:gray;
+       top:50%;
+       left:65%;
+       position:absolute;
+       transform:translate(-50%,-50%);
+      // box-sizing:border-box;
+}

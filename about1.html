@@ -1,0 +1,89 @@
+
+
+
+<html>
+<head>
+<title> About </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:orangered;padding:15px;">
+  <h1> ABOUT </h1>
+  <h3>Life Line</h3>
+</div>
+
+<div style="overflow:auto;color:black;background-color:white">
+  <div class="menu">
+    <div class="menuitem"> <a href="faqs.html"> FAQ'S </a> </div>
+    <div class="menuitem"> <a href="chat.php"> CHAT WITH US </a> </div>
+    <div class="menuitem"> <a href="v.html"> TUTORIALS </a> </div>
+    <div class="menuitem"> <a href="location.html"> NEAR HOSPITALS </a> </div>
+  </div>
+
+  <div class="main">
+    <h2>LIFE LINE</h2>
+    <p>Life line is a hospital management application with many benefits that makes the users to understand and operate the many activities like appointements.It consists of special features like faq's which helps in knowing the solutions for the common and trending problems and chats helps in personal conversations with doctors and their experienced advices.The tutorials session is attracting and most useful session having videos on each and every problems which really makes the users stick to this application. </p>
+    <img src="5.jpg" height="290" width="690">
+  </div>
+
+  <div class="right">
+    <h2>WHAT</h2>
+    <p>An online hospital appointments with useful and emergency tips</p>
+    <h2>RATING</h2>
+    <p>4.7/5 </p>
+    <p>95% people love this</p>
+    <h2>DOWNLOADS</h2>
+    <p>100+ Millions downloads</p>
+  </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> 
+<a href="about.php"><button style="font-size:20px;background-color:red">  Home </button></a>
+</body>
+</html>

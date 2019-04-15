@@ -1,0 +1,145 @@
+
+
+login html page:
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> login form</title> 
+    <link   rel="stylesheet" href=" xx.css">
+</head>
+<body>
+
+ <div class="title"><h1>Sign In</h1></div>
+ <div class="container">
+      <div class="left"></div>
+      <div class="right">
+          <div class="formBox">
+               <form>
+                      <p> username</p>
+                          <input type=" text" name=" " placeholder="enter name">
+                       <p> password</p>
+                           <input type="password" name=" " palceholder="....."> 
+
+                         <input type="submit" name=" " value="Sign In">
+                        <a href="#">          forgot password</a>
+                        </form>
+            </div>
+      <div>
+</div>
+
+</body>
+</html>
+
+           
+   
+login css file:
+body
+{
+         margin: 0;
+        padding:0;
+       background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(shop12.jpg);
+       background-size:  cover;
+      font-family: sans-serif;
+}
+
+
+.title
+{
+       text-align: center;
+      padding: 50px 0 20px;
+ }
+
+.title h1
+{
+      margin:0;
+     padding: 0;
+     color:  #262626;
+     text-tranform:uppercase;
+     font-size:  36px;
+
+}
+
+.container 
+{
+       width: 50%;
+       height: 400px;
+      background: #fff;
+     margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+.container .left
+{
+      float: left;
+      width: 53%;
+      height:  400px;
+      background:  url(t2.png);
+     background-size: cover;
+     box-sizing: border-box;
+}
+
+.container  .right
+{
+     float:right;
+    width: 47%;
+   height: 400px;
+    box-sizing: border-box;
+}
+
+.formBox
+{
+      width: 100%;
+     padding: 80px  40px;
+    box-sizing: border-box;
+   height:400px;
+    background: #fff;
+}
+  .formBox p
+{     
+        margin: 0;
+       padding: 0;
+      font-weight: bold;
+      color: #a6af13;
+   }
+.formBox input
+{      
+        width:100%;
+      margin-button: 20px;
+}
+.formBox input[type="text"],
+.formBox input[type="password"]
+{
+      border: none;
+      border-bottom:2px solid #a6af13;
+     outline: none; 
+      height:30px;
+}
+.formBox input[type="text"]:focus,
+.formBox input[type="text"]:focus
+{
+     border-bottom:2px solid #262626;
+}
+
+.formBox input[type="submit"]
+{
+            border:none;
+            outline: none;
+            height: 40px;  
+            color: #fff;
+             background:#262626;
+          curosr: pointer;
+}
+
+.formBox input[type="submit"]:hover
+{
+       background:pink;
+}
+
+
+.formBox a
+{
+     color: #262626;
+    font-size:12px;
+     font-weight: bold;
+}
